@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/Techofficer/prelauncher.svg?branch=master)](https://travis-ci.org/Techofficer/prelauncher)
-
-# PRELAUNCHER
+# OBSERVATORY LANDING PAGE
 
 Rails 4 version of Harry's prelaunchr with updated design, comfortable control panel, and other new advanced features. Based on https://github.com/harrystech/prelaunchr and discussed in greater detail on [Tim Ferriss'](http://fourhourworkweek.com/2014/07/21/harrys-prelaunchr-email/) blog.
 
@@ -71,5 +69,3 @@ You can easily install our [WordPress plugin](https://github.com/Techofficer/wor
 
 ## Custom development
 [Contact us](http://prelauncher.info/contact) if you need custom features, integrations, or design for your Prelaunch website.
-
-
