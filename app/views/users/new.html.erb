@@ -1,10 +1,32 @@
-<section id="main" style="background-image: url(<%= asset_url(Setting.cover_image.url) %>);">
-  <div class="cover">
-    <h1 class="cover-title">Prelauncher</h1>
-    <h3 class="cover-subtitle">Start your prelaunch referral campaign to gather thousands of emails before you even launch your e-commerce website.</h3>
+<div class="container">
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <%= image_tag("observatory-logo.svg") %>
+        <span>Observatory</span>
+      </a>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign In</a></li>    
+      </ul>
+  </div>
+</nav>
+
+<div class="row">
+  <div class="col-sm-7">
+    <h1 class=""><span>(re)</span>Discover News Radio</h1>
+    <p>The smart way to find and listen to podcasts.</p>
     <div id="form-wrapper">
       <%= render "form" %>
       <small>* We promise no spam, cause we hate spam </small>
-    </div>
-  </div>
-</section>
+    </div><!-- /form -->
+  </div><!-- /col -->
+    <div class="col-sm-5">
+    <%= image_tag("observatory-iphone.png") %>
+  </div><!-- /col -->
+</div><!-- /row -->
+
+
+</div>
+<!-- /container -->

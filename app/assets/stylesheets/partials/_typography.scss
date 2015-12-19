@@ -1,0 +1,92 @@
+@import "partials/variables";
+
+html {
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: $font-family-1;
+  line-height: $base-line-height;
+  font-weight: 400;
+  color: $base-color;
+  font-size: $base-font-size;
+}
+
+a {
+  color: $base-link-color;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+}
+
+h1 a {
+  text-decoration: none;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+a:hover { color: $base-link-hover-color; }
+
+p { margin: $space 0; }
+p:first-child { margin-top: $space*2 };
+
+.font-family-1 { font-family: $font-family-1; }
+.font-family-2 { font-family: $font-family-2; }
+
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.semibold { font-weight: 600; }
+.bold, .strong, b, strong { font-weight: 600; }
+
+.italic, i, em { font-style: italic; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.text-uppercase { text-transform: uppercase; }
+.text-underline { text-decoration: underline; }
+.text-decoration-none { text-decoration: none; }
+
+.nowrap { white-space: nowrap; }
+
+
+.t06, .t-4{ font-size: $base-font-size*0.6;}
+.t08, .t-2{ font-size: $base-font-size*0.8;}
+.t12, .t2 { font-size: $base-font-size*1.2; }
+.t14, .t4 { font-size: $base-font-size*1.4; }
+.t16, .t6 { font-size: $base-font-size*1.6; }
+.t18, .t8 { font-size: $base-font-size*1.8; }
+.t20 { font-size: $base-font-size*2.0; }
+.t30 { font-size: $base-font-size*3.0; }
+.t40 { font-size: $base-font-size*4.0; }
+.t50 { font-size: $base-font-size*5.0; }
+.t60 { font-size: $base-font-size*6.0; }
+
+.lh1 {line-height: 1;}
+
+.ls-3 {letter-spacing: -3px;}
+.ls-2 {letter-spacing: -2px;}
+.ls-1 {letter-spacing: -1px;}
+.ls0 {letter-spacing: 0px;}
+.ls1 {letter-spacing: 1px;}
+.ls2 {letter-spacing: 2px;}
+.ls3 {letter-spacing: 3px;}
+.ls4 {letter-spacing: 4px;}
+.ls5 {letter-spacing: 5px;}
+
+.font-weight100 {font-weight: 100;}
+.font-weight300 {font-weight: 300;}
+.font-weight500 {font-weight: 500;}
+.font-weight600 {font-weight: 600;}
+.font-weight800 {font-weight: 800;}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

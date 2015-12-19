@@ -18,6 +18,14 @@
 @import "bootstrap";
 @import "font-awesome";
 
+/*All variables*/
+@import "partials/variables";
+
+/*Partials*/
+@import "partials/typography";
+@import "partials/colors";
+
+
 form .form-group label {
     color: #271B1B;
     font-weight: 300;
