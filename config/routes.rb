@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:index, :create, :show, :destroy] do
 	resources :shares, only: [] do
-	  collection do 
+	  collection do
 	    get "/" => "shares#create"
 	  end
 	end
@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
   root "users#new"
   get "privacy" => "pages#privacy"
+  get "tos" => "pages#tos"
 
 
 end
