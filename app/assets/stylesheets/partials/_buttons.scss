@@ -1,0 +1,48 @@
+@import "partials/variables";
+@import "partials/animations";
+
+.btn {
+  // font-family: $font-family-1;
+  font-size: $base-font-size*1.1;
+  padding: $space*.5 $space*2.5;
+  border-radius: 3px;
+  margin: 0;
+  width:100%;
+  color: #FFF;
+  background: $primary-color-medium;
+  border: 1px solid $primary-color-medium;
+  padding-left: 0;
+  padding-right: 0;
+  @include transition(.5s);
+
+  &:hover {
+    color: #fff;
+    background: shade($primary-color-medium, 15%);
+    border: 1px solid shade($primary-color-medium, 15%);
+  }
+
+  &:active {
+    border-color: $primary-color;
+  }
+
+  &:focus {
+    color: $white;
+  }
+}
+
+a.btn { text-decoration: none; }
+
+.primary {
+  color: #FFF;
+  background: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background: shade($primary-color, 15%);
+    border: 1px solid shade($primary-color, 15%);
+  }
+
+  &:active {
+    border-color: $primary-color;
+  }
+}
