@@ -6,15 +6,6 @@
 }
 .hero-text {
   margin-top: 26%;
-
-  #new_user .form-control {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-  }
-  #new_user .btn {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
 }
 
 .subheading {
@@ -36,5 +27,19 @@
   }
   p {
     color: $primary-color-medium
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-text {
+    margin-top: 10%;
+
+    h1 {
+      font-size: $base-font-size*2.2;
+    }
+
+  }
+  .subheading {
+    font-size: $base-font-size*1.2;
   }
 }
