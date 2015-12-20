@@ -1,8 +1,11 @@
 @import "partials/variables";
 
-// Unique layout styles
+.hero-text {
+  margin-top: 26%;
+}
+
 .subheading {
-  font-size: $base-font-size*2;
+  font-size: $base-font-size*1.6;
   color: $primary-color-medium;
   font-weight: 100;
 }

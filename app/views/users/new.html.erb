@@ -1,11 +1,11 @@
 <div class="container">
 
 <nav class="navbar">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">
-        <%= image_tag("observatory-logo.svg") %>
-        <span>Observatory</span>
+        <%= image_tag("observatory-logo.svg", class: 'center') %>
+        <span class="uppercase font-weight600 ls1 t08">Observatory</span>
       </a>
     </div>
       <ul class="nav navbar-nav navbar-right">
@@ -16,12 +16,13 @@
 
 <div class="row">
   <div class="col-sm-7">
-    <h1 class="mb0"><span class="o6 t24">(re)</span>Discover News Radio</h1>
-    <p class="subheading mt0">The smart way to find and listen to podcasts.</p>
-    <div id="form-wrapper">
-      <%= render "form" %>
-      <small>* We promise no spam, cause we hate spam </small>
-    </div><!-- /form -->
+    <div class="hero-text">
+      <h1 class="mb0"><span class="o6 t24">(re)</span>Discover News Radio</h1>
+      <p class="subheading mt0">The smart way to find and listen to podcasts.</p>
+      <div id="form-wrapper">
+        <%= render "form" %>
+      </div><!-- /form -->
+    </div><!-- /hero-text -->
   </div><!-- /col -->
     <div class="col-sm-5">
     <%= image_tag("observatory-iphone.png", class: 'full-width') %>
@@ -30,22 +31,26 @@
 
 </div><!-- /container -->
 
+<div class="background-gradient">
+  <div class="container">
 
-<div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <%= image_tag("easy-icon.svg") %>
+        <h3 class="">Easy</h3>
+        <p class="">Finding, downloading and dealing with podcasts is a hassle. Observatory streams podcasts with no effort. Just sign-up and click play.</p>
+      </div><!-- /col -->
+      <div class="col-sm-4">
+        <%= image_tag("intelligent-icon.svg") %>
+        <h3 class="">Intelligent</h3>
+        <p class="">The more you use Observatory, the more it leans what types of podcasts you like. Likes, skips and shares—even things your friends like help discovery.</p>
+      </div><!-- /col -->
+      <div class="col-sm-4">
+        <%= image_tag("everywhere-icon.svg") %>
+        <h3 class="">Everywhere</h3>
+        <p class="">On the train, in the car and at work—with iOS, Android and web applications, you can listen to Observatory no matter where you are.</p>
+      </div><!-- /col -->
+    </div><!-- /row -->
 
-  <div class="row">
-    <div class="col-sm-4">
-      <h3 class="">Easy</h3>
-      <p class="">Finding, downloading and dealing with podcasts is a hassle. Observatory streams podcasts with no effort. Just sign-up and click play.</p>
-    </div><!-- /col -->
-    <div class="col-sm-4">
-      <h3 class="">Intelligent</h3>
-      <p class="">The more you use Observatory, the more it leans what types of podcasts you like. Likes, skips and shares—even things your friends like help discovery.</p>
-    </div><!-- /col -->
-    <div class="col-sm-4">
-      <h3 class="">Everywhere</h3>
-      <p class="">On the train, in the car and at work—with iOS, Android and web applications, you can listen to Observatory no matter where you are.</p>
-    </div><!-- /col -->
-  </div><!-- /row -->
-
-</div><!-- /container -->
+  </div><!-- /container -->
+</div><!-- /background -->

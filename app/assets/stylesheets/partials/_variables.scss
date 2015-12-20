@@ -25,7 +25,7 @@ $font-family-1: "Proxima Nova", sans-serif;
 $base-font-size: 16px;
 $base-line-height: 1.5;
 $base-color: #928E8E;
-$base-link-color: #928E8E;
+$base-link-color: $primary-color;
 $base-link-hover-color: shade($primary-color, 15);
 
 //Margins and spacing
