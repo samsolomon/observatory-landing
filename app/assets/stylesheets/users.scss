@@ -43,7 +43,7 @@
 }
 
 #new_user {
-	width: auto;
+	width: 100%;
 	margin: 10px auto;
 	padding: 0px;
 	display: inline-block;
@@ -60,21 +60,15 @@
 	font-size: 18px;
 	width: 100%;
 	float: left;
-	display: inline-block;	
+	display: inline-block;
+  min-width: 300px;
 }
 
 #new_user .btn {
-    height: 45px;
-    border-radius: 0px;
-    font-size: 18px;
-    font-weight: 600;
-    width: 100%;
-    background-color: #4EC9ED;
-    color: #FFF;
-    font-family: Lato;
-    float: left;
-    display: inline-block;
-    margin-left: -5px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -5px;
 }
 
 .cover small{
@@ -85,7 +79,7 @@
 	text-transform: none;
 	text-align: center;
 	margin: 0px auto;
-	display: block;	
+	display: block;
 }
 
 #refer{
@@ -100,7 +94,7 @@
 	padding-top: 50px;
 	margin-bottom: 50px;
 	background-size: cover;
-	border-bottom: medium none;	
+	border-bottom: medium none;
 }
 
 #copy h3{
@@ -122,7 +116,7 @@
 	margin: 5px auto 25px 50px;
 	text-align: left;
 	width: auto;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 #refer input {
@@ -263,7 +257,7 @@ aside h4{
 }
 
 @media screen and (max-width: 850px){
-  
+
 
 
 
@@ -346,7 +340,7 @@ aside h4{
   #refer input{
     margin-left: auto;
     margin-right: auto;
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   #refer p {
@@ -379,7 +373,7 @@ aside h4{
 
     #new_user .user_email {
     margin-right: -4px;
-    
+
   }
 
     #new_user .submit {
@@ -419,7 +413,7 @@ aside h4{
 
     #new_user {
     width: 100%;
-  } 
+  }
 
     #new_user .user_email {
     width: 55%;
@@ -453,7 +447,7 @@ aside h4{
     .cover-heading {
     font-size: 25px;
   }
-  
+
     #new_user .submit {
       min-width: 60px;
   }
@@ -515,7 +509,7 @@ aside h4{
     .cover-title {
   	font-size: 30px;
   }
-  
+
   .cover-subtitle {
     font-size: 16px;
   }

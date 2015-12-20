@@ -22,14 +22,15 @@ a {
 }
 
 h1 {
-  font-size: $space*3;
+  font-size: $base-font-size*3;
   font-weight: 600;
   color: $primary-color;
 }
 
+h3 {font-size: $base-font-size*1.2; font-weight: 600; text-transform: uppercase;}
 a:hover { color: $base-link-hover-color; }
 
-p { margin: $space 0; }
+p { margin: $space 0; font-weight: 200;}
 p:first-child { margin-top: $space*2 };
 
 .font-family-1 { font-family: $font-family-1; }

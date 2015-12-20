@@ -1,0 +1,40 @@
+@import "partials/variables";
+
+.navbar-brand {
+  height: auto !important;
+  float: none !important;
+}
+.hero-text {
+  margin-top: 26%;
+
+  #new_user .form-control {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  #new_user .btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+.subheading {
+  font-size: $base-font-size*1.6;
+  color: $primary-color-medium;
+  font-weight: 100;
+}
+
+.background-gradient{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6621d7+0,7b2cbf+100 */
+  background: #6621d7; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #6621d7 0%, #7b2cbf 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #6621d7 0%,#7b2cbf 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #6621d7 0%,#7b2cbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6621d7', endColorstr='#7b2cbf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  h3 {
+    color: $white;
+  }
+  p {
+    color: $primary-color-medium
+  }
+}
