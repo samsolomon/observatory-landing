@@ -35,7 +35,6 @@ p { margin: $space 0; }
 p:first-child { margin-top: $space*2 };
 
 .font-family-1 { font-family: $font-family-1; }
-.font-family-2 { font-family: $font-family-2; }
 
 .light { font-weight: 300; }
 .regular { font-weight: 400; }
@@ -55,12 +54,12 @@ p:first-child { margin-top: $space*2 };
 .nowrap { white-space: nowrap; }
 
 
-.t06, .t-4{ font-size: $base-font-size*0.6;}
-.t08, .t-2{ font-size: $base-font-size*0.8;}
-.t12, .t2 { font-size: $base-font-size*1.2; }
-.t14, .t4 { font-size: $base-font-size*1.4; }
-.t16, .t6 { font-size: $base-font-size*1.6; }
-.t18, .t8 { font-size: $base-font-size*1.8; }
+.t06 { font-size: $base-font-size*0.6;}
+.t08 { font-size: $base-font-size*0.8;}
+.t12 { font-size: $base-font-size*1.2; }
+.t14 { font-size: $base-font-size*1.4; }
+.t16 { font-size: $base-font-size*1.6; }
+.t18 { font-size: $base-font-size*1.8; }
 .t20 { font-size: $base-font-size*2.0; }
 .t30 { font-size: $base-font-size*3.0; }
 .t40 { font-size: $base-font-size*4.0; }
