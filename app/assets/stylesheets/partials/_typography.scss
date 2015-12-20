@@ -21,12 +21,10 @@ a {
   -webkit-transition: color 0.3s ease;
 }
 
-h1 a {
-  text-decoration: none;
-
-  &:hover {
-    color: $white;
-  }
+h1 {
+  font-size: $space*3;
+  font-weight: 600;
+  color: $primary-color;
 }
 
 a:hover { color: $base-link-hover-color; }
@@ -61,12 +59,14 @@ p:first-child { margin-top: $space*2 };
 .t16 { font-size: $base-font-size*1.6; }
 .t18 { font-size: $base-font-size*1.8; }
 .t20 { font-size: $base-font-size*2.0; }
+.t24 { font-size: $base-font-size*2.4; }
 .t30 { font-size: $base-font-size*3.0; }
 .t40 { font-size: $base-font-size*4.0; }
 .t50 { font-size: $base-font-size*5.0; }
 .t60 { font-size: $base-font-size*6.0; }
 
 .lh1 {line-height: 1;}
+.lh2 {line-height: 2;}
 
 .ls-3 {letter-spacing: -3px;}
 .ls-2 {letter-spacing: -2px;}
